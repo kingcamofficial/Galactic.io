@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+  <title>Galactic.io</title>
+
+</head>
+<style>
+  body {
+    font-family: 'Alfa Slab One', sans-serif;
+    background-color: black;
+    color: rgb(203, 84, 24);
+    font-family: sans-serif;
+    padding: auto;
+    margin: auto;
+    height: 769px;
+  }
+
+  main {
+    display: flex;
+    margin: auto;
+    font-family: 'Alfa Slab One', sans-serif;
+    max-width: 1300px;
+  }
+
+  .phrase {
+    margin-top: 200px;
+    margin-left: 50px;
+    display: inline-block;
+    /* flex-direction: column; */
+    /* align-content: center; */
+    width: 300px;
+    height: 250px;
+
+  }
+
+  footer {
+    background-color: rgb(203, 84, 24);
+    height: 255px;
+    margin-top: 80px;
+    /* margin-bottom: 50px; */
+  }
+
+  nav {
+    font-family: 'Alfa Slab One', sans-serif;
+    height: 85px;
+    /* margin-bottom: 80px; */
+  }
+
+  nav h1 {
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 40px;
+    margin: 20px;
+    /* margin-top: 20px; */
+    display: inline-block;
+  }
+
+  nav a {
+    color: rgb(203, 84, 24);
+    text-decoration: none;
+    float: right;
+    margin: 20px;
+    margin-top: 30px;
+
+  }
+
+  .signup {
+    display: block;
+
+  }
+
+  .button {
+
+    margin: 15px;
+    background-color: rgb(203, 84, 24);
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    /* float: right; */
+    margin-top: 20px;
+    padding-top: 8px;
+  }
+
+  img {
+    display: none;
+    /* display: inline-flex; */
+    width: 270px;
+    height: 235px;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+h2 {
+  /* color: rgb(203, 84, 24); */
+  text-align: center;
+}
+
+.disc {
+  color: darkgrey;
+}
+  .signup-button {
+
+    margin: 15px;
+    background-color: rgb(203, 84, 24);
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    margin-top: 25px;
+    padding: 8px;
+  }
+
+  input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  input,
+  button {
+    display: inline;
+    justify-content: center;
+    font-size: 1.15em;
+    padding: 5px 15px;
+    margin: 1em auto;
+    border-radius: 10px;
+
+  }
+
+  li {
+    color: lightgrey;
+  }
+
+  .container {
+    width: 250px;
+    margin: 30px auto;
+    background-color: #fff;
+    min-height: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border: solid 5px rgb(203, 84, 24);
+    color: rgb(203, 84, 24);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .primary {
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+  }
+
+.info {
+  color: #fff;
+    display: flex;
+    margin: auto;
+    font-family: 'Alfa Slab One', sans-serif;
+    max-width: 1300px;
+}
+
+.text-wrapper {
+    /* border: solid rgb(203, 84, 24) 4px; */
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    flex-basis: 33.33%;
+  } 
+
+  #text-wrapper2 {
+    /* display: flex; */
+    border: solid rgb(203, 84, 24) 4px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+    height: 255px;
+    width: 290px;
+    margin: 0 auto;
+    flex-basis: 100%;
+    /* overflow-x: scroll; */
+
+  }
+
+  .text-wrapper3 {
+    border: solid rgb(203, 84, 24) 4px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+    /* height: 600px; */
+    /* width: 700px; */
+    margin: 10px;
+
+  }
+
+ #test {
+    display: flex;
+    border: solid rgb(203, 84, 24) 4px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    /* flex-basis: 100%; */
+    /* overflow-x: scroll; */
+
+  }
+
+
+  .checkboxes label {
+    display: inline-block;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  .checkboxes input {
+    vertical-align: middle;
+  }
+
+  .checkboxes label span {
+    vertical-align: middle;
+  }
+
+  #filter {
+    border-radius: 10px;
+    margin: 20px;
+    float: right;
+    padding: 5px;
+  }
+
+
+  @media(max-width:700px) {
+    nav h1 {
+      text-align: center;
+      display: block;
+    }
+
+    nav a {
+      display: block;
+    }
+
+    nav button {
+      display: block;
+    }
+  }
+</style>
+
+<body>
+
+  <nav>
+    <h1>Galactic.io</h1>
+    <a class="button" href="login.html">Login</a>
+    <a href="nfts.html">NFTs</a>
+    <a href="bulliten.html">Bulliten</a>
+    <a href="about.html">About</a>
+    <a href="index.html">Home</a>
+  </nav>
+
+  <main>
+<section class="primary">
+    <section class="primary">
+      <div id="text-wrapper2">
+   <img src="img/1.png">
+   <img src="img/2.png">
+   <img src="img/3.png">
+   <img src="img/4.png">
+   <img src="img/5.png">
+   <img src="img/6.png">
+   <img src="img/7.png">
+   <img src="img/8.png">
+   <img src="img/9.png">
+   <img src="img/10.png">
+   <img src="img/11.png">
+   <img src="img/12.png">
+   <img src="img/13.png">
+   <img src="img/14.png">
+   <img src="img/15.png">
+   <img src="img/17.png">
+   <img src="img/18.png">
+      </div>
+      <h2>Galacticats Genises</h2>
+    </section>
+
+    <div class="info">
+
+
+<section class="secondary">
+  <div class="text-wrapper">
+    <h2>The Collection</h2>
+    <p>A Collective of 2222 NFTs on Cardano.</p>
+    <p>The Galacticats collection is project with a primary purpose of building a community of likeminded individuals through art, lore, resources, and tools we can help bridge the gap between the world of web2 and web3</p>
+    <p class="price">socials coming soon</p>
+    <p class="cta"><a href="https://discord.gg/gxERuKmCDA" target="_blank" class="book-now-btn">Discord</a></p>
+    <p class="disc">Disclosure: This is not a financial product</p>
+  </div>
+</section>
+
+    </div>
+</section>
+
+  </main>
+
+</body>
+
+<footer>
+
+</footer>
+
+<!-- <img src="images/21.png" alt="rotating image" width="600" height="500" id="rotator"> -->
+
+<script type="text/javascript">
+ const images = document.querySelectorAll("img");
+  let i = 1;
+ setInterval(function () {
+
+console.log("i run indefinitely every 2.5 seconds...");
+
+images.forEach((img, i) => {
+  img.style.display = "none";
+})
+if(i == images.length) {
+  i = 0;
+}
+
+
+   images[i].style.display = "block";
+   i++;
+ }, 2500);
+
+
+
+  
+</script>
+
+
+</html>
