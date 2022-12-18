@@ -1,0 +1,141 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+	font-family: 'Alfa Slab One', sans-serif;
+	background-color: black;
+	color: rgb(203, 84, 24);
+	font-family: sans-serif;
+	padding: auto;
+	margin: auto;
+	/* height: 769px; */
+}
+
+main {
+	font-family: 'Alfa Slab One', sans-serif;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-between;
+
+
+  /* align-items: center; */
+	/* display: inline-flex; */
+	/* flex-direction: column; */
+	/* align-items: center; */
+	/* justify-content: center; */
+	/* margin-top: 50px; */
+	/* width: 300px; */
+	/* height: 384px; */
+}
+
+img {
+	float: right;
+	height: 750px;
+	width: auto;
+	
+
+}
+
+.phrase {
+	margin-top: 200px;
+	margin-left: 50px;
+	display: inline-block;
+	/* flex-direction: column; */
+	/* align-content: center; */
+	width: 300px;
+	height: 250px;
+
+}
+
+ footer {
+ 	background-color: rgb(203, 84, 24);
+ 	height: 180px;
+ 	/* margin-top: 300px; */
+ 	/* margin-bottom: 50px; */
+ }
+
+nav {
+	font-family: 'Alfa Slab One', sans-serif;
+	height: 85px;
+}
+
+nav h1 {
+	font-family: 'Alfa Slab One', sans-serif;
+	font-size: 40px;
+	margin: 20px;
+	/* margin-top: 20px; */
+	display: inline-block;
+}
+
+nav a {
+	color: rgb(203, 84, 24);
+	text-decoration: none;
+	float: right;
+	margin: 20px;
+	margin-top: 30px;
+
+}
+
+.signup {
+	display: block;
+	/* margin-right: 200px; */
+}
+
+.button {
+
+	margin: 15px;
+	background-color: rgb(203, 84, 24);
+	text-align: center;
+	color: #fff;
+	border-radius: 50px;
+	width: 100px;
+	height: 30px;
+	float: right;
+	margin-top: 20px;
+	padding-top: 4px;
+}
+
+.signup-button {
+	text-decoration: none;
+margin: 15px;
+	background-color: rgb(203, 84, 24);
+	text-align: center;
+	color: #fff;
+	border-radius: 50px;
+	width: 100px;
+	height: 30px;
+	margin-top: 25px;
+	padding: 8px;
+}
+
+.apply-button {
+text-decoration: none;
+	margin: 15px;
+	background-color: rgb(203, 84, 24);
+	text-align: center;
+	color: #fff;
+	border-radius: 50px;
+	width: 100px;
+	height: 30px;
+	margin-top: 25px;
+	padding: 8px;
+}
+
+
+@media(max-width:700px) {
+	nav h1 {
+		text-align: center;
+		display: block;
+	}
+
+	nav a {
+		display: block;
+	}
+
+	/* main {
+		display: block;
+	} */
+
+	nav button {
+		display: block;
+	}
+}

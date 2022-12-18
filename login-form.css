@@ -1,0 +1,104 @@
+body {
+  background-color: #fff;
+  background-image: url(../images/hacienda-main-bldg-640x350px.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.container {
+  width: 250px;
+  margin: 30px auto;
+  background-color: #fff;
+  min-height: 200px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+  border: 5px solid #347e83;
+  color: #347e83;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 100px;
+}
+
+button {
+margin: 15px;
+background-color: #347e83;
+text-align: center;
+color: #fff;
+border-radius: 50px;
+width: 100px;
+height: 30px;
+float: right;
+margin-top: 20px;
+/* padding-top: 4px; */
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+nav h1 {
+  font-family: 'Alfa Slab One', sans-serif;
+  font-size: 40px;
+  /* margin: 20px; */
+  /* margin-top: 20px; */
+  display: inline-block;
+  float: left;
+  margin: auto;
+}
+
+input,
+button {
+  font-size: 1.15em;
+  padding: 5px 15px;
+  display: block;
+  margin: 1em auto;
+  width: 200px;
+  border-radius: 10px;
+}
+
+button {
+  width: 230px;
+}
+
+nav {
+  font-family: 'Alfa Slab One', sans-serif;
+  height: 85px;
+}
+
+nav h1 {
+  font-family: 'Alfa Slab One', sans-serif;
+  font-size: 40px;
+  margin: 20px;
+  /* margin-top: 20px; */
+  display: inline-block;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  float: right;
+  margin: 20px;
+  margin-top: 30px;
+
+}
+
+
+.brand-name {
+  /* display: inline-block; */
+  font-family: 'Alfa Slab One', sans-serif;
+  /* margin-bottom: px; */
+  font-size: 25px;
+  /* margin-bottom: 15px; */
+}
+
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
